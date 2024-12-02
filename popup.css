@@ -1,8 +1,10 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10px;
     width: 300px;
+    background-color:#88B04B;
   }
   
   h1 {
@@ -12,12 +14,24 @@ body {
   }
   
   button {
-    display: block;
-    margin: 0 auto 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    font-size: 10px;
+    background-color: aliceblue;
+    height: 45px;
+    width: 115px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    color:black ;
     cursor: pointer;
+    transition: background-color 0.5s,color 0.5s ;
   }
+  button:hover{
+    box-shadow: 9px -4px 10px rgba(0, 0, 0 ,0.3);
+    background-color: grey;
+    color: white;
+
+  }
+  
   
   #results {
     margin-top: 20px;
