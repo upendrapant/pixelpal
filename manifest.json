@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Creative Design Assistant",
+    "name": "PixelPal",
     "description": "Extract colors and fonts from any web page.",
     "version": "1.0",
     "permissions": ["activeTab", "scripting"],
