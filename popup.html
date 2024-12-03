@@ -3,16 +3,26 @@
 <head>
   <title>Creative Design Assistant</title>
   <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="askme_bar.css">
+
 </head>
 <body>
   <h1>Design Assistant</h1>
-  <button id="extract">Extract Colors & Fonts</button>
+  <button id="extract"   class="extract" role="button">Extract </button>
+  <!-- <img id = 'icon' src="icons/icon.png"> -->
   <div id="results">
     <h3>Colors</h3>
     <div id="colors"></div>
     <h3>Fonts</h3>
     <ul id="fonts"></ul>
+
   </div>
   <script src="popup.js"></script>
+  <div class="prompt_bar">
+    <input type="text" id="question-input" placeholder="Ask AI">
+    <button id="submit-button">Ask</button>
+  </div>
+  <div id="response"></div>
 </body>
 </html>

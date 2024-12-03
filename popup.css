@@ -4,17 +4,36 @@ body {
     margin: 0;
     padding: 10px;
     width: 300px;
-    background-color:#88B04B;
-  }
-  
-  h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    background-color: white;
+
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    background-color: white;
     text-align: center;
   }
   
+  h1 {
+    margin-left: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: monospace;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+
+    font-style: italic;
+  }
+  
   button {
-    font-size: 10px;
+    padding: 10px 15px;
+  
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
     background-color: aliceblue;
     height: 45px;
     width: 115px;
@@ -22,11 +41,10 @@ body {
     border-radius: 10px;
     border-width: 1px;
     color:black ;
-    cursor: pointer;
-    transition: background-color 0.5s,color 0.5s ;
+    cursor: pointer; 
+    transition: background-color ;
   }
   button:hover{
-    box-shadow: 9px -4px 10px rgba(0, 0, 0 ,0.3);
     background-color: grey;
     color: white;
 
@@ -44,9 +62,15 @@ body {
     margin: 2px;
     border: 1px solid #ccc;
   }
-  
+  #colors:hover{
+    cursor: pointer;
+
+  }
   #fonts {
     list-style-type: none;
     padding: 0;
   }
+  
+
+
   

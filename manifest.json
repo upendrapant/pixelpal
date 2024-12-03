@@ -3,7 +3,7 @@
     "name": "Creative Design Assistant",
     "description": "Extract colors and fonts from any web page.",
     "version": "1.0",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "aiLanguageModelOriginTrial"],
     "host_permissions": ["<all_urls>"],
     "icons": {
       "16": "icons/icon.png",
@@ -17,5 +17,6 @@
     "background": {
       "service_worker": "background.js"
     }
+    
   }
   
